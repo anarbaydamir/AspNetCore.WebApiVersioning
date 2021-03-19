@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Versioning;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -28,11 +29,18 @@ namespace AspNetCore.WebApiVersioning
             //add API versioning
             services.AddApiVersioning(config =>
             {
+
                 //specify default api version
                 config.DefaultApiVersion = new ApiVersion(1, 0);
+
                 //if user didnt specified api version in request default api version will be used instead
                 config.AssumeDefaultVersionWhenUnspecified = true;
+                
+                //show list of versions in api response header
                 config.ReportApiVersions = true;
+
+                //choose which type you would like to get requested version
+                config.ApiVersionReader = new UrlSegmentApiVersionReader();
             });
         }
 
