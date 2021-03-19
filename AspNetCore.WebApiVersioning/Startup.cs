@@ -40,7 +40,7 @@ namespace AspNetCore.WebApiVersioning
                 config.ReportApiVersions = true;
 
                 //choose which type you would like to get requested version
-                config.ApiVersionReader = new UrlSegmentApiVersionReader();
+                config.ApiVersionReader = new HeaderApiVersionReader("x-api-version");
             });
         }
 

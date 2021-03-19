@@ -8,7 +8,6 @@ namespace AspNetCore.WebApiVersioning.Controllers.v2
 {
     [ApiController]
     [ApiVersion("2.0")]
-    [Route("api/v{version:apiVersion}/[controller]")]
     [Route("api/[controller]")]
     public class UserController:ControllerBase
     {

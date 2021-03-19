@@ -8,8 +8,7 @@ namespace AspNetCore.WebApiVersioning.Controllers.v1
 {
     [ApiController]
     [ApiVersion("1.0")]
-    [Route("api/v{version:apiVersion}/[controller]")]
-    [Route("api/[controller]")] //added this route also in case user request to api without specifying api version
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
         [HttpGet]
