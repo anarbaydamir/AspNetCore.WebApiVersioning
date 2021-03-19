@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "aUmiOMiP/hMevwPwI9M9PRcmAVjs0xRv40/YK72q8NW2UeQw9tTVu4ind6Hkhd4SDVZvCsKYvIyuwr2imo9hJw==",
+  "success": true,
+  "projectFilePath": "E:\\personal\\AspNetCore.WebApiVersioning\\AspNetCore.WebApiVersioning\\AspNetCore.WebApiVersioning.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a.baydamirov\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\a.baydamirov\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\a.baydamirov\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\a.baydamirov\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.10\\microsoft.netcore.app.host.win-x64.3.1.10.nupkg.sha512",
+    "C:\\Users\\a.baydamirov\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
